@@ -1,11 +1,11 @@
-import { BlimpIcon, BracesContent, InputStackLogo, PixelArtIconsBox, PixelArtIconSunglasses } from "../components/icons";
-import ProjectCard from "../components/ProjectCard";
+import { BlimpIcon, BracesContent, InputStackLogo, PixelArtIconsBox, PixelArtIconSunglasses } from "../../components/icons";
+import ProjectCard from "../../components/ProjectCard";
 
 export default function Projects() {
   return (
     <>
       <h1>Projects</h1>
-      <p>Thank you for checking out my work</p>
+      <h3>Thank you for checking out my work!! :3</h3>
       {/* <p style={{ display: "block" }}>
         This site was built with React and Next.js
         <br />

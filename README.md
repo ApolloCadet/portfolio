@@ -1,6 +1,6 @@
 # Hey, I am Apollo!
 
-### You may also know me as /ApolloCadet, or previously /zapsters, on github
+### You may also know me as /ApolloCadet on github
 
 This is my portfolio! It is my living document all about me.
 

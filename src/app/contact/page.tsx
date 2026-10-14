@@ -1,5 +1,5 @@
-import Github from "../components/github";
-import Linkedin from "../components/linkedin";
+import Github from "../../components/github";
+import Linkedin from "../../components/linkedin";
 
 export default function Contact() {
   return (

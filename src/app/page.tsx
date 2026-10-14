@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
-import Pixelated from "./components/pixelated";
-import EmblaCarousel from "./components/EmblaCarousel";
+import Pixelated from "../components/pixelated";
+import EmblaCarousel from "../components/EmblaCarousel";
+import { GithubIconPixelated } from "@/icons";
 
 export default function Home() {
   return (
@@ -36,19 +37,23 @@ export default function Home() {
         <div id="four" className="tilt-l2x">digital</div>
         <div id="four" className="tilt-r">world.</div>
       </section>
-      <hr />
-
-
-      <EmblaCarousel autoscroll options={{ loop: true }} slides={[{ src: "/me/IMG_0027.JPEG", alt: "me piloting the 1859 Balloon Voyage" }, { src: "/BLIMP/BlimpDashboard_10-9-26.png", alt: "Made by me, a screenshot of the BLIMP Dashboard [Balloon Live Instrumentation Monitoring Platform], made for the 1859 Balloon Voyage at Conner Prairie in Indiana. Check out the project page for more." }, { src: "/BLIMP/sophie.jpeg", alt: "Picture of the 1859 Balloon Voyage in sunset." }]} />
 
       <hr />
-
-
       <strong className="call-to-action-links" style={{ display: "flex", justifyContent: "space-evenly" }}>
         <Link href="/projects">View My Work</Link>
         <Link href="/contact">Get in Touch</Link>
       </strong>
+
       <hr />
+      <section className="socialLinks">
+        <Link href="https://github.com/ApolloCadet" target="_blank" rel="noopener noreferrer">
+          <GithubIconPixelated />
+        </Link>
+      </section>
+
+      <EmblaCarousel autoscroll options={{ loop: true }} slides={[{ src: "/me/IMG_0027.JPEG", alt: "me piloting the 1859 Balloon Voyage" }, { src: "/BLIMP/BlimpDashboard_10-9-26.png", alt: "Made by me, a screenshot of the BLIMP Dashboard [Balloon Live Instrumentation Monitoring Platform], made for the 1859 Balloon Voyage at Conner Prairie in Indiana. Check out the project page for more." }, { src: "/BLIMP/sophie.jpeg", alt: "Picture of the 1859 Balloon Voyage in sunset." }]} />
+      <hr />
+
       <p>
         I am full-stack developer focused on building interactive, user-centered web applications. I enjoy turning complex ideas into clean, practical experiences using modern web technologies.
       </p>

@@ -1,4 +1,4 @@
-import BuyMeACoffee from "../components/buy_me_a_coffee";
+import BuyMeACoffee from "../../components/buy_me_a_coffee";
 
 export default function About() {
   return (

@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "@/styles/globals.scss";
 import { ThemeProvider } from "next-themes";
 import Marquee from "react-fast-marquee";
-import NavItem from "./components/NavItem";
-import PersonalIcon from "./components/PersonalIcon";
+import NavItem from "../components/NavItem";
+import PersonalIcon from "../components/PersonalIcon";
 import Link from "next/link";
-import Pixelated from "./components/pixelated";
-import PresentationAside from "./components/presentationAside";
+import Pixelated from "../components/pixelated";
+import PresentationAside from "../components/presentationAside";
 
 export const metadata: Metadata = {
   title: "< Apollo />",
