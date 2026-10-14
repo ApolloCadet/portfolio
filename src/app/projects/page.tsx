@@ -6,16 +6,8 @@ export default function Projects() {
     <>
       <h1>Projects</h1>
       <h3>Thank you for checking out my work!! :3</h3>
-      {/* <p style={{ display: "block" }}>
-        This site was built with React and Next.js
-        <br />
-        <a
-          style={{ display: "inline" }}
-          href="https://github.com/ApolloCadet/portfolio"
-          target="_blank">
-          [View the source code]
-        </a>
-      </p> */}
+
+      <hr />
       <div className="projectCards">
         <ProjectCard
           href="projects/BLIMP"
@@ -89,7 +81,7 @@ export default function Projects() {
           href="projects/sporeganizer"
           github="https://github.com/ApolloCadet/Sporeganizer"
           label="Sporeganizer"
-          carousel={[{ src: "/Sporeganizer/DashboardPage.png" }, { src: "/Sporeganizer/EditClassCard.png" }, { src: "/Sporeganizer/EditAssignmentCard.png}" }, { src: "/Sporeganizer/EditClassCard2.png" }, { src: "/Sporeganizer/HomePage.png" }, { src: "/Sporeganizer/OptionsPage.png" }]}
+          carousel={[{ src: "/Sporeganizer/DashboardPage.png" }, { src: "/Sporeganizer/EditClassCard.png" }, { src: "/Sporeganizer/EditAssignmentCard.png" }, { src: "/Sporeganizer/EditClassCard2.png" }, { src: "/Sporeganizer/HomePage.png" }, { src: "/Sporeganizer/OptionsPage.png" }]}
           status="Open source, not being actively developed"
           icon={<img src="/Sporeganizer/Sporeganizer.png" alt="Sporeganizer Logo" style={{ imageRendering: "pixelated", width: "100%", padding: "5px 0px" }} />}
         >
@@ -117,8 +109,7 @@ export default function Projects() {
         </ProjectCard>
 
       </div >
-      {/* <hr />
-      <p>Below are some notable projects:</p> */}
+      <h4 style={{ fontWeight: 300 }}>this is not an extensive list. more to come ;]</h4>
     </>
   );
 }

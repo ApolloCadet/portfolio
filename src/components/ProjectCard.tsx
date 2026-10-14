@@ -29,6 +29,24 @@ export default function ProjectCard({ children, href, label, github, url, icon, 
       }}
       transition={{ duration: 0.2 }}
       className="projectCard">
+      <Link href={href} className="raw">
+        <motion.h1
+          style={{ textDecoration: "none", textAlign: "center" }}
+          variants={{
+            initial: { width: "fit-content" },
+            hover: { width: "100%" },
+          }}>
+          {label}
+          <div
+            style={{
+              height: "3px",
+              width: "100%",
+              marginTop: "3px",
+              backgroundColor: "var(--primary)",
+            }}
+          />
+        </motion.h1>
+      </Link >
       <div className="projectFlex">
         <div className="projectContent">
           <div
@@ -38,29 +56,12 @@ export default function ProjectCard({ children, href, label, github, url, icon, 
               position: "relative",
               flexDirection: "column",
             }}>
-            <Link href={href} className="raw">
-              <motion.h1
-                style={{ textDecoration: "none" }}
-                variants={{
-                  initial: { width: "fit-content" },
-                  hover: { width: "100%" },
-                }}>
-                {label}
-                <div
-                  style={{
-                    height: "3px",
-                    width: "100%",
-                    backgroundColor: "var(--primary)",
-                  }}
-                />
-              </motion.h1>
-            </Link >
             {carousel &&
               <EmblaCarousel slides={carousel} />
             }
           </div>
           {children}</div>
-        <aside>
+        <aside style={{ marginTop: "15px" }}>
           <div className="slideshow">
             {icon ? icon :
               <PersonalIcon
@@ -76,31 +77,29 @@ export default function ProjectCard({ children, href, label, github, url, icon, 
           </div>
           <div className="links">
             {url && (
-              <span
+              <Link
                 className="Link"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.open(url, "_blank");
-                }}>
+                href={url}
+                target="_blank" rel="noopener noreferrer">
                 <WebIcon />
                 Webpage
-              </span>
+              </Link>
             )}
             {github && (
-              <span
+              <Link
                 className="Link"
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.open(github, "_blank");
-                }}>
+                href={github}
+                target="_blank"
+                rel="noopener noreferrer">
                 <OpenIcon />
                 Github
-              </span>
+              </Link>
             )}
           </div>
           <div style={{ color: "var(--primary)", marginTop: "6px", fontSize: "16px", fontFamily: "ft88", letterSpacing: "-1px", textAlign: "left" }}>{status}</div>
         </aside>
       </div>
+      <hr style={{ marginBottom: "1em" }} />
     </motion.div>
   );
 }

@@ -18,7 +18,7 @@ export default function About() {
       <p>
         When I’m not coding, you’ll probably find me tinkering with side projects, sketching new ideas, or flying the 1859 Balloon Voyage at Conner Prairie.
       </p>
-      <EmblaCarousel slides={[{ src: "/BLIMP/sophie-Balloon-out-of-SLMS-2026-silly.JPG", alt: "Picture of the 1859 Balloon Crew Team [2025] - I blend in pretty well, I am the green haired one ;)", skip: true }, { src: "/BLIMP/sophie-End-of-Super-Low-Moor.jpg", alt: "Picture of us taking the balloon out of hibernation this Spring 2026!" }, { src: "/BLIMP/sophie-inner-winch.JPG", alt: "Me learning how to moor the balloon with the low stow / inner mooring system", skip: true }, { src: "/BLIMP/sophie-Sunset.jpg", alt: "Picture of the sunset from the 1859 Balloon Voyage." }, { src: "/BLIMP/sophie.jpeg", alt: "Picture of the 1859 Balloon Voyage in sunset." }]} />
+      <EmblaCarousel slides={[{ src: "/me/IMG_0027.JPEG", alt: "me piloting the 1859 Balloon Voyage" }, { src: "/BLIMP/sophie-Balloon-out-of-SLMS-2026-silly.JPG", alt: "Picture of the 1859 Balloon Crew Team [2025] - I blend in pretty well, I am the green haired one ;)", skip: true }, { src: "/BLIMP/sophie-End-of-Super-Low-Moor.jpg", alt: "Picture of us taking the balloon out of hibernation this Spring 2026!" }, { src: "/BLIMP/sophie-inner-winch.JPG", alt: "Me learning how to moor the balloon with the low stow / inner mooring system", skip: true }, { src: "/BLIMP/sophie-Sunset.jpg", alt: "Picture of the sunset from the 1859 Balloon Voyage." }, { src: "/BLIMP/sophie.jpeg", alt: "Picture of the 1859 Balloon Voyage in sunset." }]} />
 
     </>
   );

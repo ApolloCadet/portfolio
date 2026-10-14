@@ -38,6 +38,17 @@ export default function Home() {
         <div id="four" className="tilt-r">world.</div>
       </section>
 
+      <section className="socialLinks">
+        <Link href="https://www.linkedin.com/in/erin-ballinger/" target="_blank" rel="noopener noreferrer">
+          <LinkedinIconPixelated />
+        </Link>
+        <Link href="https://github.com/ApolloCadet" target="_blank" rel="noopener noreferrer">
+          <GithubIconPixelated />
+        </Link>
+        <Link href="contact">
+          <PixelatedEmailIcon />
+        </Link>
+      </section>
       <hr />
       <strong className="call-to-action-links" style={{ display: "flex", justifyContent: "space-evenly" }}>
         <Link href="/projects">View My Work</Link>
@@ -45,11 +56,6 @@ export default function Home() {
       </strong>
 
       <hr />
-      <section className="socialLinks">
-        <Link href="https://github.com/ApolloCadet" target="_blank" rel="noopener noreferrer">
-          <GithubIconPixelated />
-        </Link>
-      </section>
 
       <EmblaCarousel autoscroll options={{ loop: true }} slides={[{ src: "/me/IMG_0027.JPEG", alt: "me piloting the 1859 Balloon Voyage" }, { src: "/BLIMP/BlimpDashboard_10-9-26.png", alt: "Made by me, a screenshot of the BLIMP Dashboard [Balloon Live Instrumentation Monitoring Platform], made for the 1859 Balloon Voyage at Conner Prairie in Indiana. Check out the project page for more." }, { src: "/BLIMP/sophie.jpeg", alt: "Picture of the 1859 Balloon Voyage in sunset." }]} />
       <hr />

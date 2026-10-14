@@ -13,21 +13,15 @@ export default function Contact() {
         </h4>
         <div className="socials">
           <a href="https://www.linkedin.com/in/erin-ballinger/" target="_blank">
-            <Linkedin
-              style={{
-                color: "var(--primary-color)",
-              }}
+            <LinkedinIconPixelated
             />{" "}
-            <p>LinkedIn</p>
+            <p style={{ fontFamily: "ft88" }}>LinkedIn</p>
           </a>
           <span>|</span>
           <a href="https://github.com/ApolloCadet" target="_blank">
-            <Github
-              style={{
-                color: "var(--primary-color)",
-              }}
+            <GithubIconPixelated
             />{" "}
-            <p>Github</p>
+            <p style={{ fontFamily: "ft88" }}>Github</p>
           </a>
         </div>
         <form
