@@ -8,7 +8,7 @@ import {
   usePrevNextButtons
 } from './EmblaCarouselArrowButtons'
 import { DotButton, useDotButton } from './EmblaCarouselDotButton'
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import { relative } from 'path';
 
 type PropType = {
@@ -51,12 +51,17 @@ const EmblaCarousel = (props: PropType) => {
     return () => clearInterval(scrollInterval);
   }, [emblaApi]);
 
+  const filteredSlides = useMemo(() => {
+    if (!slides) return [];
+    return slides.filter(slide => !slide.skip);
+  }, [slides])
+
   return (
     <>
       <div className="embla" style={{ height: "fit-content" }} >
         <div className="embla__viewport" ref={emblaRef} style={{ height: "fit-content" }}>
           <div className="embla__container" style={{ height: "fit-content" }}>
-            {slides.map((slide, index) => (
+            {filteredSlides.map((slide, index) => (
               !slide.skip && (
                 <div className='embla__slide' style={{ height: "fit-content" }} key={index}>
                   <div className="relative slide-pixel-corners--wrapper">
@@ -87,7 +92,7 @@ const EmblaCarousel = (props: PropType) => {
               )
             ))}
           </div>
-          <p style={{ zIndex: 1, position: 'relative', textAlign: "center", marginBottom: 0, marginTop: '0.5em' }}>{slides[selectedIndex]?.alt}</p>
+          <p style={{ zIndex: 1, position: 'relative', textAlign: "center", marginBottom: 0, marginTop: '0.5em' }}>{filteredSlides[selectedIndex]?.alt}</p>
         </div>
 
         <div className="embla__controls">
