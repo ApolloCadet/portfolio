@@ -1,5 +1,5 @@
 import EmblaCarousel from "@/components/EmblaCarousel";
-import { OpenIcon, WebIcon } from "@/components/icons";
+import { OpenIcon, WebIcon } from "@/icons";
 import Link from "next/link";
 
 export default function ProjectCard() {

@@ -1,5 +1,5 @@
-import { BlimpIcon, BracesContent, InputStackLogo, PixelArtIconsBox, PixelArtIconSunglasses } from "../../components/icons";
-import ProjectCard from "../../components/ProjectCard";
+import { BlimpIcon, BracesContent, InputStackLogo, PixelArtIconsBox, PixelArtIconSunglasses } from "@/icons";
+import ProjectCard from "@/components/ProjectCard";
 
 export default function Projects() {
   return (

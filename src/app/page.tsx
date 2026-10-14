@@ -2,7 +2,7 @@ import Link from "next/link";
 import Marquee from "react-fast-marquee";
 import Pixelated from "../components/pixelated";
 import EmblaCarousel from "../components/EmblaCarousel";
-import { GithubIconPixelated } from "@/icons";
+import { GithubIconPixelated, LinkedinIconPixelated, PixelatedEmailIcon } from "@/icons";
 
 export default function Home() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 import PersonalIcon from "./PersonalIcon";
-import { OpenIcon, WebIcon } from "./icons";
+import { OpenIcon, WebIcon } from "@/icons";
 import Link from "next/link";
 import EmblaCarousel from "./EmblaCarousel";
 

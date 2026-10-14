@@ -1,3 +1,4 @@
+import { GithubIconPixelated, LinkedinIconPixelated } from "@/icons";
 import Github from "../../components/github";
 import Linkedin from "../../components/linkedin";
 
