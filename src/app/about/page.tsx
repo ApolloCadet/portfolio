@@ -5,7 +5,7 @@ export default function About() {
     <>
       <h1>About</h1>
       <p>
-        Hi! I’m Apollo — also known as Erin or zapsters on GitHub — a software developer, designer, and occasional helium balloon pilot.</p>
+        Hi! I’m Apollo — also known as Erin or ApolloCadet on GitHub — a software developer, designer, and occasional helium balloon pilot.</p>
       <p>
         I’m the founder of Apollo Digital LLC, where I design and build real-world software solutions — from SaaS platforms to interactive web experiences. My work blends engineering, design, and a bit of play, whether that’s a mission-critical telemetry system or a chaotic multiplayer game.
       </p>

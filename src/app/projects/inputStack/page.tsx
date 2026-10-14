@@ -28,18 +28,18 @@ export default function ProjectCard() {
           maxWidth: 400,
           margin: "0 auto",
         }}>
-        <Link target="_blank" className="Link" href={"https://zapsters.github.io/inputstack/"}>
+        <Link target="_blank" className="Link" href={"https://ApolloCadet.github.io/inputstack/"}>
           <WebIcon />
           Play InputStack
         </Link>
-        <Link target="_blank" className="Link" href={"https://github.com/zapsters/InputStack"}>
+        <Link target="_blank" className="Link" href={"https://github.com/ApolloCadet/InputStack"}>
           <OpenIcon />
           Github
         </Link>
       </div>
 
       <hr />
-      <EmblaCarousel slides={[{src: "/InputStack/GameScreen.png"}, {src: "/InputStack/GameScreen2.png"}, {src: "/InputStack/joinGameScreen.png"}, {src: "/InputStack/roomScreen.png"}]} />
+      <EmblaCarousel slides={[{ src: "/InputStack/GameScreen.png" }, { src: "/InputStack/GameScreen2.png" }, { src: "/InputStack/joinGameScreen.png" }, { src: "/InputStack/roomScreen.png" }]} />
       <hr />
 
       <h2>How It Works</h2>

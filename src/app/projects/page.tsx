@@ -11,7 +11,7 @@ export default function Projects() {
         <br />
         <a
           style={{ display: "inline" }}
-          href="https://github.com/zapsters/portfolio"
+          href="https://github.com/ApolloCadet/portfolio"
           target="_blank">
           [View the source code]
         </a>
@@ -52,8 +52,8 @@ export default function Projects() {
 
         <ProjectCard
           href="projects/inputStack"
-          github="https://github.com/zapsters/InputStack"
-          url="https://zapsters.github.io/inputstack/"
+          github="https://github.com/ApolloCadet/InputStack"
+          url="https://ApolloCadet.github.io/inputstack/"
           label="Input Stack"
           carousel={[{ src: "/InputStack/GameScreen.png" }, { src: "/InputStack/GameScreen2.png" }, { src: "/InputStack/joinGameScreen.png" }, { src: "/InputStack/roomScreen.png" }]}
           status="Finished 2025"
@@ -87,7 +87,7 @@ export default function Projects() {
         </ProjectCard>
         <ProjectCard
           href="projects/sporeganizer"
-          github="https://github.com/zapsters/Sporeganizer"
+          github="https://github.com/ApolloCadet/Sporeganizer"
           label="Sporeganizer"
           carousel={[{ src: "/Sporeganizer/DashboardPage.png" }, { src: "/Sporeganizer/EditClassCard.png" }, { src: "/Sporeganizer/EditAssignmentCard.png}" }, { src: "/Sporeganizer/EditClassCard2.png" }, { src: "/Sporeganizer/HomePage.png" }, { src: "/Sporeganizer/OptionsPage.png" }]}
           status="Open source, not being actively developed"

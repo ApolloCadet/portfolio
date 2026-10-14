@@ -20,7 +20,7 @@ export default function Contact() {
             <p>LinkedIn</p>
           </a>
           <span>|</span>
-          <a href="https://github.com/zapsters" target="_blank">
+          <a href="https://github.com/ApolloCadet" target="_blank">
             <Github
               style={{
                 color: "var(--primary-color)",
