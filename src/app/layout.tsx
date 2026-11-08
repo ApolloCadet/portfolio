@@ -52,14 +52,14 @@ export default function RootLayout({
               <Pixelated>
                 <PersonalIcon
                   style={{
-                    width: "60%",
-                    maxWidth: "120px",
-                    padding: "13px 0px 4px 0px",
+                    width: "80%",
+                    maxWidth: "170px",
+                    padding: "10px 0px 7px 0px",
                     color: "var(--primary)",
                   }}
                   alignmentBaseline="central"
                 />
-                <Link className="name" href="/" style={{ fontSize: 23, fontWeight: 400 }}>
+                <Link className="name" href="/" style={{ fontSize: 25, fontWeight: 900, letterSpacing: -2.2 }}>
                   Erin Apollo
                   <br />
                   Ballinger
