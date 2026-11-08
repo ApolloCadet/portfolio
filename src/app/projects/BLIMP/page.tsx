@@ -10,7 +10,7 @@ export default function ProjectCard() {
     <div className="projectPage">
       <h1>BLIMP</h1>
       <h4>The Balloon Live Instrumentation Monitoring Platform</h4>
-      <h4 style={{ color: "#bcbcbc", textAlign: "center", fontStyle: "italic" }}>"The blackbox for balloons"</h4>
+      <h4 style={{ color: "#bcbcbc", textAlign: "center", fontStyle: "italic" }}>Remote Balloon Telemetry</h4>
       <p>
         BLIMP provides secure, remote, real-time access to instrumentation data from AEROPHILE NG30 tethered balloon systems.
       </p>
