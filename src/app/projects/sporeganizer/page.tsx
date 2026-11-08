@@ -27,7 +27,7 @@ export default function ProjectCard() {
           <WebIcon />
           Open Webpage
         </Link> */}
-        <Link target="_blank" className="Link" href={"https://github.com/ApolloCadet/InputStack"}>
+        <Link target="_blank" className="Link" href={"https://github.com/ApolloCadet/Sporeganizer"}>
           <OpenIcon />
           Github
         </Link>
